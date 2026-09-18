@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.input {
+  font: inherit;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.button {
+  font: inherit;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background: var(--accent);
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.error {
+  font-size: 13px;
+  color: #e5484d;
+  margin: 0;
+}
+
+.success {
+  font-weight: 600;
+  color: var(--text-h);
+  margin: 0;
+}

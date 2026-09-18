@@ -1,0 +1,29 @@
+.track {
+  width: 48px;
+  height: 28px;
+  border-radius: 999px;
+  border: none;
+  background: var(--border);
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.track.on {
+  background: var(--accent);
+}
+
+.thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: white;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.track.on .thumb {
+  transform: translateX(20px);
+}

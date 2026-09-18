@@ -1,0 +1,29 @@
+.wrapper {
+  position: relative;
+  display: inline-flex;
+  font-size: 28px;
+}
+
+.bell {
+  line-height: 1;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  min-width: 18px;
+  padding: 0 4px;
+  border-radius: 999px;
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  color: var(--text-h);
+  background: var(--border);
+}
+
+.badge.urgent {
+  color: white;
+  background: #e5484d;
+}
