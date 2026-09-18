@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.original {
+  font-family: var(--mono);
+  font-size: 15px;
+  color: var(--text);
+  text-decoration: line-through;
+}
+
+.discounted {
+  font-family: var(--mono);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-h);
+}
+
+.badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: white;
+  background: var(--accent);
+}

@@ -4,6 +4,7 @@ import { ToggleSwitch } from './widgets/ToggleSwitch/ToggleSwitch'
 import { NotificationBadge } from './widgets/NotificationBadge/NotificationBadge'
 import { ProfileCard } from './widgets/ProfileCard/ProfileCard'
 import { Tooltip } from './widgets/Tooltip/Tooltip'
+import { PriceTag } from './widgets/PriceTag/PriceTag'
 import './App.css'
 
 function App() {
@@ -66,6 +67,29 @@ function App() {
           <p>Hover the "i" icon.</p>
           <div className="card-body">
             <Tooltip />
+          </div>
+        </article>
+      </section>
+
+      <header className="intro reference-intro">
+        <h1>Reference: a fully documented function</h1>
+        <p>
+          Not a task — no bug, nothing to fix. Open{' '}
+          <code>src/widgets/PriceTag/formatDiscountedPrice.ts</code> to see
+          what a complete TSDoc comment looks like before you write your own.
+        </p>
+      </header>
+
+      <section className="grid">
+        <article className="card">
+          <h2>Price tag</h2>
+          <p>
+            <code>formatDiscountedPrice</code> is fully documented with
+            TSDoc — <code>@param</code>, <code>@returns</code>,{' '}
+            <code>@remarks</code>, and <code>@example</code>.
+          </p>
+          <div className="card-body">
+            <PriceTag />
           </div>
         </article>
       </section>

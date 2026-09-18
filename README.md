@@ -59,3 +59,10 @@ These are intentionally left undocumented — a later exercise will have you
 write a TSDoc comment for the helper in your assigned widget. Nothing to do
 with them yet; they're just already in place so that session can start
 immediately.
+
+Before you write your own, look at
+[`src/widgets/PriceTag/formatDiscountedPrice.ts`](src/widgets/PriceTag/formatDiscountedPrice.ts)
+— the "Price tag" card at the bottom of the gallery. It's not a task, just a
+reference: a fully documented function using `@param`, `@returns`,
+`@remarks`, and `@example`. Hover the function name anywhere it's used in
+your editor to see the comment rendered as a tooltip.
